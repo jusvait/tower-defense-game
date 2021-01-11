@@ -1,0 +1,18 @@
+package TD
+
+/** Global constants */
+object CONSTANTS {
+
+  val WINDOW_WIDTH:  Int = 960
+  val WINDOW_HEIGHT: Int = 512
+
+  val SCREEN_WIDTH:  Int = WINDOW_WIDTH/2
+  val SCREEN_HEIGHT: Int = WINDOW_HEIGHT/2
+
+  val HUD_HEIGHT: Int = 64
+  val HUD_WIDTH:  Int = SCREEN_WIDTH
+
+  val GAME_FLOOR_WIDTH:  Int = SCREEN_WIDTH
+  val GAME_FLOOR_HEIGHT: Int = SCREEN_HEIGHT - HUD_HEIGHT
+
+}
